@@ -52,7 +52,7 @@ As of now, I've started to learn HTML, CSS and JavaScript to build UI for websit
 ### ***Education***
 + *in progress* - RS School, JavaScript/Front-end. Stage 0
 + *2018-2019* - Hock International, Business Efficiency Management CIMA Cert PM (Rus)
-![Badge](https://www.credly.com/badges/799cb3f4-115d-4dff-b632-cabba88221ba/public_url)
+![](https://images.credly.com/size/340x340/images/766f2b84-1f87-4534-9ec3-2829d7ec6c04/2010B-71280_Russian_CertPMRus_600x600.png)
 + *2017* - Business and Management Institute of BSU, management accounting
 + *2004-2009* - Academy of Public Administration under the President of the Republic of Belarus, economist-manager
 
