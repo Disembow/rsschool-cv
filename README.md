@@ -1,4 +1,4 @@
 ## rsschool-cv 
 
 #### CV#1. Markdown & Git
-https://Disembow.github.io/rsschool-cv/cv
+https://disembow.github.io/rsschool-cv/
