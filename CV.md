@@ -1,6 +1,6 @@
 # **YAUHENI Naliotau**
 
-=======================
+***
 
 ***My Contacts***
 + *Phone number*:      +375 29 618 71 54
@@ -9,15 +9,24 @@
 + *Discord*:           Yauheni Naliotau (Disembow)#0243
 + *Skype*:             e_naletov
 
-=======================
+***
 
 ***About Me***
 
-=======================
+Dedicated, result-oriented, over 13 years in finance. An open-minded, adequate and honest person that likes learning and using new languages and tech stacks. Try and figure out how to improve the bad things and take the good things on board for any future ventures.
+
+I’m always open to new approaches and look out for any tips and tricks I can apply to my own work.
+
+As of now, I've started to learn HTML, CSS and JavaScript to build UI for websites. My goal is to become Front-End Web Engineer and break into the software industry.
+
+***
 
 ***Skills***
++ GitHub
++ VS Code
++ TBD
 
-=======================
+***
 
 ***Code examples***
 
@@ -32,11 +41,13 @@
 </html>
 ```
 
-=======================
+***
 
 ***Work experience***
++ TBD
 
-=======================
+
+***
 
 ***Education***
 + *in progress* - RS School, JavaScript/Front-end. Stage 0
@@ -44,6 +55,10 @@
 + *2017* - Business and Management Institute of BSU, management accounting
 + *2004-2009* - Academy of Public Administration under the President of the Republic of Belarus, economist-manager
 
-=======================
+***
 
 ***English level***
+*A2 Pre-Intermediate*
+English experience:
++ Business correspondence
++ Creation bussiness plan incl. financial model of Bahrain Steel Mill
