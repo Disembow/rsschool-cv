@@ -61,4 +61,4 @@ As of now, I've started to learn HTML, CSS and JavaScript to build UI for websit
 *A2 Pre-Intermediate*
 English experience:
 + Business correspondence
-+ Creation bussiness plan incl. financial model of Bahrain Steel Mill
++ Creation of the Bahrain Steel Mill bussiness plan (incl. financial model)
