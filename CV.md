@@ -1,7 +1,7 @@
 # **YAUHENI Naliotau**
 
 
-###***My Contacts***
+### ***My Contacts***
 + *Phone number*:      +375 29 618 71 54
 + *Email*:             e_naletov@mail.ru
 + *GitHub*:            @Disembow
@@ -10,7 +10,7 @@
 
 ***
 
-###***About Me***
+### ***About Me***
 
 Dedicated, result-oriented, over 13 years in finance. An open-minded, adequate and honest person that likes learning and using new languages and tech stacks. Try and figure out how to improve the bad things and take the good things on board for any future ventures.
 
@@ -20,14 +20,15 @@ As of now, I've started to learn HTML, CSS and JavaScript to build UI for websit
 
 ***
 
-###***Skills***
-+ GitHub
+### ***Skills***
++ GitHub & Git
 + VS Code
++ Discord
 + TBD
 
 ***
 
-###***Code examples***
+### ***Code examples***
 
 ```
 <html>
@@ -42,13 +43,13 @@ As of now, I've started to learn HTML, CSS and JavaScript to build UI for websit
 
 ***
 
-###***Work experience***
+### ***Work experience***
 + TBD
 
 
 ***
 
-###***Education***
+### ***Education***
 + *in progress* - RS School, JavaScript/Front-end. Stage 0
 + *2018-2019* - Hock International, Business Efficiency Management CIMA Cert PM (Rus)
 + *2017* - Business and Management Institute of BSU, management accounting
@@ -56,7 +57,7 @@ As of now, I've started to learn HTML, CSS and JavaScript to build UI for websit
 
 ***
 
-###***English level***
+### ***English level***
 *A2 Pre-Intermediate*
 English experience:
 + Business correspondence
