@@ -1,3 +1,26 @@
-h1 {
-	color: rgb(0, 13, 255);
+:root {
+	--main-font-color: #050549;
+	--main-background-color: #f3f0f0;
 }
+
+.header-container {
+	margin: 20px;
+	padding: 20px;
+	border: 0.5px solid var(--main-font-color);
+	background-color: var(--main-background-color);
+	line-height: 1.1;
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+	color: var(--main-font-color);
+	text-align: left;
+}
+
+.body-container {
+	margin: 10px;
+	padding: 10px;
+}
+
+.subtitle {
+	font-style: italic;
+}
+
