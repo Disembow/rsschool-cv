@@ -117,6 +117,8 @@ h1 {
 .main-start-data {
     border: 5px solid #000000;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     min-height: 422px;
     max-width: 892px;
     flex: 0 0 auto;
@@ -129,6 +131,40 @@ h1 {
     font-style: italic;
     font-weight: 700;
     color: #FFFFFF;
+}
+
+.start-planning {
+    width: 892px;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    border: 0;
+    border-radius: 16px;
+    background: #ffffffb3;
+    margin: 0 0; /*проверить как будет отрабатывать*/
+}
+
+.start-planning-question {
+    font-family: 'Aleo', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: italic;
+    font-weight: 400;
+    color: #F2785C;
+    padding: 9px 41px;
+}
+
+.start-planning-button {
+    background: #0D606F;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 0;
+    margin: 18px;
+    padding: 13.5px 32.5px;
 }
 
 .main-center-container {
