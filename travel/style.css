@@ -1,13 +1,9 @@
-/*
-    font-family: 'Magra', sans-serif;
-    font-family: 'Red Hat Text', sans-serif;
-*/
 html {
     scroll-behavior: smooth; 
   }
 
 body {
-    max-width: 1440px;
+    max-width: 1440px; /* для сдачи подкорректировать*/
     min-width: 320px;
     min-height: 100vw;
     margin: auto;
@@ -151,7 +147,6 @@ h1 {
     font-size: 24px;
     line-height: 29px;
     font-style: italic;
-    font-weight: 400;
     color: #F2785C;
     padding: 9px 41px;
 }
@@ -165,7 +160,7 @@ h1 {
     color: #FFFFFF;
     border-radius: 10px;
     border: 0;
-    margin: 18px; */
+    margin: 18px;
     padding: 13.5px 32.5px;
 }
 
@@ -176,13 +171,21 @@ h1 {
     
 }
 
+.three-steps-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #F2785C;
+}
+
 .three-steps-box {
     border: 5px solid #000000;
     height: 247px;
     width: 1177px;
     font-family: 'Aleo', sans-serif;
     font-size: 20px;
-    font-weight: 400;
 }
 
 .button-container {
