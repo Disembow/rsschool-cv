@@ -3,12 +3,13 @@ html {
   }
 
 body {
-    max-width: 1440px; /* для сдачи подкорректировать*/
+    max-width: 1440px; /* для сдачи подкорректировать на width: 1440px; */
     min-width: 320px;
     min-height: 100vw;
     margin: auto;
     display: flex;
     flex-direction: column;
+    
     
 }
 
@@ -17,7 +18,7 @@ h1 {
     font-size: 80px;
     font-weight: 700;
     line-height: 96px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 0;
 }
 
@@ -36,7 +37,7 @@ h1 {
     font-size: 32px;
     font-weight: 600;
     line-height: 39px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .nav {
@@ -49,7 +50,7 @@ h1 {
     font-size: 16px;
 	font-weight: 500;
     line-height: 21px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .nav-list {
@@ -87,16 +88,18 @@ h1 {
     right: -84.5%;
     height: 41px;
     width: 103px;
-    background: #0D606F;
+    background: #0d606f;
     font-family: 'Red Hat Text', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 39px;
-    color: #FFFFFF;
+    color: #ffffff;
     border-radius: 10px;
     border: 0;
     box-shadow: 0 4px #00000040;
 }
+
+/* ================================================================================================================ */
 
 .main {
     flex: 1 0 auto;
@@ -104,6 +107,8 @@ h1 {
     top: -90px;
     z-index: -1;
 }
+
+/* ================================================================================================================ */
 
 .main-start-container {
     height: 765px;
@@ -127,7 +132,7 @@ h1 {
     line-height: 24px;
     font-style: italic;
     font-weight: 700;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .start-planning {
@@ -147,27 +152,30 @@ h1 {
     font-size: 24px;
     line-height: 29px;
     font-style: italic;
-    color: #F2785C;
+    color: #f2785c;
     padding: 9px 41px;
 }
 
 .start-planning-button {
-    background: #0D606F;
+    background: #0d606f;
     font-family: 'Red Hat Text', sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 32px;
-    color: #FFFFFF;
+    color: #ffffff;
     border-radius: 10px;
     border: 0;
     margin: 18px;
     padding: 13.5px 32.5px;
 }
 
+/* ================================================================================================================ */
+
 .main-center-container {
     height: 1639px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
 }
 
@@ -181,9 +189,7 @@ h1 {
 .three-steps-title {
     display: flex;
     justify-content: center;
-    font-family: 'Red Hat Text', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
+    font: 500 40px/53px 'Red Hat Text', sans-serif;
     color: #F2785C;
     margin: 80px 0 30px;
 }
@@ -235,13 +241,95 @@ h1 {
     padding-left: 71px;
 }
 
+/* ================================================================================================================ */
+
+/* .popular-destination {
+    
+} */
+
+.popular-destination-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular-destination-title {
+    font: 500 40px/53px 'Red Hat Text', sans-serif;
+    color: #F2785C;
+    margin: 97px 0 46px;
+    display: flex;
+    justify-content: center;
+}
+
+.desdestination-photoset {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.photo {
+    margin: 0 30px;
+    border-radius: 16px;    
+}
+
+.carousel { /* fix */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carousel-dot1 {
+    height: 20px;
+    width: 20px;
+    background: #f2785c;
+    border: 0;
+    border-radius: 50%;
+    margin: 24px 5px;
+}
+
+.carousel-dot2 {
+    height: 20px;
+    width: 20px;
+    background: #f2785c80;
+    border: 0;
+    border-radius: 50%;
+    margin: 24px 5px;
+}
+
+.fm-button {
+    display: flex;
+    flex-direction: row;
+    width: 228px;
+    background: #0d606f;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #ffffff;
+    margin: 16px;
+    border-radius: 10px;
+    border: 0;
+    padding: 0;
+}
+
+.white-arrow {
+    margin: 18px 6px 18px 33px;
+}
+
+.fm-button-title {
+    font: 500 24px/32px 'Red Hat Text', sans-serif;
+    color: #ffffff;
+    margin: 14px 31px 14px 6px;
+}
+
+/* ================================================================================================================ */
+
 .main-bottom-container {
     height: 1331px;
     background-image: url(./assets/img/main_Rectangle_33.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.7);
-    
+    background-color: #ffffffb3;
 }
 
 .footer {
