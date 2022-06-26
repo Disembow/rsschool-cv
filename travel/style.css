@@ -324,13 +324,60 @@ h1 {
 
 /* ================================================================================================================ */
 
+.travel-stories-title {
+    font: 500 40px/53px 'Red Hat Text', sans-serif;
+    color: #f2785c;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ================================================================================================================ */
+
 .main-bottom-container {
     height: 1331px;
     background-image: url(./assets/img/main_Rectangle_33.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #ffffffb3;
+    padding-top: 4px;
+    
 }
+
+.stories-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.stories-photo {
+    border-radius: 16px;
+}
+
+.story {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 8.7% 0 8.3%;  
+    color: #0d606f;
+}
+
+h3 {
+    font: 400 35px/42px 'Aleo', sans-serif;
+    margin: 0 0 24px;
+    margin: 0 0 0 2.8%;
+}
+
+.stories-text {
+    font: 400 20px/24px 'Aleo', sans-serif;
+    margin: 0 0 0 2.8%;
+}
+
+.stories-read-more {
+    font: 700 20px/24px 'Aleo', sans-serif;
+    margin: 0 0 0 2.8%;
+    text-decoration: underline;
+}
+
+/* ================================================================================================================ */
 
 .footer {
     flex: 0 0 auto;
