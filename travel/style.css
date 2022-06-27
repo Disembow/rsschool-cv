@@ -6,7 +6,7 @@ body {
     max-width: 1440px; /* для сдачи подкорректировать на width: 1440px; */
     min-width: 320px;
     height: 3735px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     background-image: url(./assets/img/main_Rectangle_33.jpg);
@@ -48,11 +48,6 @@ h1 {
     width: 527px;
     margin: 0;
     padding: 0;
-    font-family: 'Red Hat Text', sans-serif;
-    font-size: 16px;
-	font-weight: 500;
-    line-height: 21px;
-    color: #ffffff;
 }
 
 .nav-list {
@@ -66,22 +61,15 @@ h1 {
 
 .nav-link {
     padding: 0;
+    transition: .3s;
+    font: 500 16px/21px 'Red Hat Text', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-#how-it-works {
-
-}
-
-#plan-your-trip {
-
-}
-
-#destinations {
-
-}
-
-#travel-stories {
-
+.nav-link:hover {
+    transition: 0.5s;
+    color: #0d606f;
 }
 
 .header-button {
@@ -103,7 +91,8 @@ h1 {
 
 .header-button:hover {
     transform: scale(1.1);
-    transition: 0.5s;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 
@@ -129,7 +118,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 422px;
+    height: 422px;
     max-width: 892px;
     flex: 0 0 auto;
 }
@@ -141,6 +130,7 @@ h1 {
     font-style: italic;
     font-weight: 700;
     color: #ffffff;
+    padding-bottom: 11px;
 }
 
 .start-planning {
@@ -152,7 +142,7 @@ h1 {
     border: 0;
     border-radius: 16px;
     background: #ffffffb3;
-    margin: 0 0; /*проверить как будет отрабатывать*/
+    margin-bottom: 32px; /*проверить как будет отрабатывать*/
 }
 
 .start-planning-question {
@@ -166,10 +156,7 @@ h1 {
 
 .start-planning-button {
     background: #0d606f;
-    font-family: 'Red Hat Text', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 32px;
+    font: 500 24px/32px 'Red Hat Text', sans-serif;
     color: #ffffff;
     border: 0;
     border-radius: 10px;
@@ -177,7 +164,7 @@ h1 {
     padding: 13.5px 32.5px;
 }
 
-.start-planning-button:hover { /*проверить почему не работает!!*/
+.start-planning-button:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
@@ -204,7 +191,7 @@ h1 {
     justify-content: center;
     font: 500 40px/53px 'Red Hat Text', sans-serif;
     color: #F2785C;
-    margin: 80px 0 30px;
+    margin: 80px 0 40px;
 }
 
 .button-container {
@@ -225,15 +212,15 @@ h1 {
 }
 
 .three-steps-button1 {
-    margin: 0 73px 34px; /*top = 0 cause .three-steps-title has 40px*/
+    margin: 0 73px 30px; /*top = 0 cause .three-steps-title has 40px*/
 }
 
 .three-steps-button2 {
-    margin: 0 55px 34px 73px;
+    margin: 0 55px 30px 73px;
 }
 
 .three-steps-button3 {
-    margin: 0 108px 34px 55px;
+    margin: 0 108px 30px 55px;
 }
 
 .three-steps-button-title {
@@ -270,15 +257,17 @@ h1 {
     justify-content: center;
 }
 
-.desdestination-photoset {
+.destination-photoset {
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
+    width: 1440px;
+    overflow: hidden;
 }
 
 .photo {
     margin: 0 30px;
-    border-radius: 16px;    
+    border-radius: 16px;
 }
 
 .carousel { /* fix */
@@ -341,7 +330,7 @@ h1 {
 .travel-stories-title {
     font: 500 40px/53px 'Red Hat Text', sans-serif;
     color: #f2785c;
-    margin-top: 80px;
+    margin-top: 63px;
     display: flex;
     justify-content: center;
 }
@@ -360,36 +349,33 @@ h1 {
 
 .stories-photo {
     border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px #0d606f);
 }
 
-.first-story {
+.stories {
     display: flex;
     flex-direction: row;
-    margin: 40px 8.7% 0 8.3%;  
+    margin: 30px 8.7% 0 120px;  
     color: #0d606f;
 }
 
-.another-stories {
-    display: flex;
-    flex-direction: row;
-    margin: 30px 8.7% 0 8.3%;  
-    color: #0d606f;
+.stories:first-child {
+    margin: 40px 8.7% 0 120px;
 }
 
 h3 {
     font: 400 35px/42px 'Aleo', sans-serif;
-    margin: 0 0 24px;
-    margin: 0 0 0 2.8%;
+    margin: 0 0 24px 40px;
 }
 
 .stories-text {
     font: 400 20px/24px 'Aleo', sans-serif;
-    margin: 0 0 0 2.8%;
+    margin: 0 0 0 40px;
 }
 
 .stories-read-more {
     font: 700 20px/24px 'Aleo', sans-serif;
-    margin: 0 0 0 2.8%;
+    margin: 0 0 0 40px;
     text-decoration: underline;
 }
 
@@ -404,18 +390,19 @@ h3 {
 
 .footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 0 0 auto;
     height: 61px;
     position: relative;
     top: -91px;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
 }
 
 .copyrights {
     font: 500 16px/21px 'Red Hat Text', sans-serif;
     color: #ffffff;
-    padding: 21px 23% 19px 41%;    
+    padding: 21px 23% 19px 35%;    
 }
 
 .copyrights-text {
