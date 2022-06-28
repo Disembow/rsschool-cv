@@ -16,10 +16,7 @@ body {
 }
 
 h1 {
-    font-family: 'Aleo', sans-serif;
-    font-size: 80px;
-    font-weight: 700;
-    line-height: 96px;
+    font: 700 80px/96px 'Aleo', sans-serif;
     color: #ffffff;
     margin: 0;
 }
@@ -27,6 +24,7 @@ h1 {
 .header {
     height: 90px;
     background: #f2785cb3;
+    box-shadow: 0px 4px 4px #0d606f80;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -115,11 +113,7 @@ h1 {
 }
 
 .subtitle {
-    font-family: 'Aleo', sans-serif;
-    font-size: 20px;
-    line-height: 24px;
-    font-style: italic;
-    font-weight: 700;
+    font: italic 700 20px/24px 'Aleo', sans-serif;
     color: #ffffff;
     padding-bottom: 11px;
 }
@@ -137,16 +131,14 @@ h1 {
 }
 
 .start-planning-question {
-    font-family: 'Aleo', sans-serif;
-    font-size: 24px;
-    line-height: 29px;
-    font-style: italic;
+    font: italic 24px/29px 'Aleo', sans-serif;
     color: #f2785c;
     padding: 9px 41px;
 }
 
 .start-planning-button {
     background: #0d606f;
+    box-shadow: 0 2px 3px 0 #0d606f29;
     font: 500 24px/32px 'Red Hat Text', sans-serif;
     color: #ffffff;
     border: 0;
@@ -174,8 +166,7 @@ h1 {
 .three-steps-box {
     height: 327px;
     width: 1177px;
-    font-family: 'Aleo', sans-serif;
-    font-size: 20px;
+    font: 20px 'Aleo', sans-serif;
 }
 
 .three-steps-title {
@@ -303,10 +294,8 @@ h1 {
     flex-direction: row;
     width: 228px;
     background: #0d606f;
-    font-family: 'Red Hat Text', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 32px;
+    box-shadow: 0 2px 3px 0 #0d606f29;
+    font: 500 24px/32px 'Red Hat Text', sans-serif;
     color: #ffffff;
     margin: 16px;
     border-radius: 10px;
