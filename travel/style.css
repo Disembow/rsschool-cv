@@ -156,7 +156,7 @@ h1 {
 /* ================================================================================================================ */
 
 .main-center-container {
-    height: 1639px;
+    height: 424px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -230,12 +230,13 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: calc(1069px + 0px);
 }
 
 .popular-destination-title {
     font: 500 40px/53px 'Red Hat Text', sans-serif;
     color: #F2785C;
-    margin: 97px 0 46px;
+    margin: 0 0 46px;
     display: flex;
     justify-content: center;
 }
@@ -323,7 +324,7 @@ h1 {
 .travel-stories-title {
     font: 500 40px/53px 'Red Hat Text', sans-serif;
     color: #f2785c;
-    margin-top: 63px;
+    margin: 55px 0 40px;
     display: flex;
     justify-content: center;
 }
@@ -331,13 +332,13 @@ h1 {
 /* ================================================================================================================ */
 
 .main-bottom-container {
-    height: 1270px;
-    background-color: #ffffffb3;
+    height: 1477px;
 }
 
 .stories-box {
     display: flex;
     flex-direction: column;
+    background-color: #ffffffb3;
 }
 
 .stories-photo {
@@ -387,9 +388,6 @@ h3 {
     align-items: center;
     flex: 0 0 auto;
     height: 61px;
-    position: relative;
-    top: -91px;
-    margin: 0;
 }
 
 .copyrights {
