@@ -26,34 +26,27 @@ h1 {
 
 .header {
     height: 90px;
-    flex: 0 0 auto;
     background: #f2785cb3;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .header-logo {
-    position: relative;
-    top: 28.9%;
-    left: 8.33%;
-    font-family: 'Magra', sans-serif;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 39px;
+    font: 600 32px/39px 'Magra', sans-serif;
     color: #ffffff;
+    padding-left: 36px;
 }
 
 .nav {
-	position: relative;
-    left: 34%;
-    width: 527px;
-    margin: 0;
-    padding: 0;
+    padding-right: 34px;
 }
 
 .nav-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 42px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -72,10 +65,11 @@ h1 {
     color: #0d606f;
 }
 
+.header-button-container {
+    padding-right: 36px;
+}
+
 .header-button {
-    position: relative;
-    top: -35px;
-    right: -84.5%;
     height: 41px;
     width: 103px;
     background: #0d606f;
