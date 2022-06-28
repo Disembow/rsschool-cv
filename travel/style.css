@@ -79,10 +79,7 @@ h1 {
     height: 41px;
     width: 103px;
     background: #0d606f;
-    font-family: 'Red Hat Text', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 39px;
+    font: 600 16px/39px 'Red Hat Text', sans-serif;
     color: #ffffff;
     border-radius: 10px;
     border: 0;
@@ -167,6 +164,7 @@ h1 {
 .start-planning-button:hover {
     transform: scale(1.1);
     transition: 0.5s;
+    cursor: pointer;
 }
 
 /* ================================================================================================================ */
@@ -263,6 +261,18 @@ h1 {
     justify-content: center;
     width: 1440px;
     overflow: hidden;
+}
+
+.destination-photo {
+    height: 800px;
+}
+
+.destination-photo aside {
+    position: relative;
+    left: 45px;
+    bottom: 86px;
+    font: 500 32px/42px 'Red Hat Text', sans-serif;
+    color: #ffffff;
 }
 
 .photo {
@@ -402,14 +412,19 @@ h3 {
 .copyrights {
     font: 500 16px/21px 'Red Hat Text', sans-serif;
     color: #ffffff;
-    padding: 21px 23% 19px 35%;    
+    padding: 21px 23% 19px 33%;    
 }
 
-.copyrights-text {
-    margin: auto;
+.socials-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    padding: 0;
 }
 
-.socials {
-    text-decoration: none;
-    padding-right: 24px;
+.socials-icon:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
 }
