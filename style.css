@@ -2,10 +2,9 @@
 
 :root {
   --main-font-color: #050549;
-  --main-border-color: #ffe3bf;
-  --header-background-color: #ffffff;
-  --main-background-color: #f1e5d3;
-  --footer-background-color: #ffffff;
+  --header-background-color: #fff6e8;
+  --main-background-color: #fff6e8;
+  --footer-background-color: #fff6e8;
 }
 
 * {
